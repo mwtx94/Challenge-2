@@ -106,10 +106,22 @@ a {
     width: 100%;
 }
 
+/* work section */
+
+.work {
+    display: flex;
+}
+
+.work h3 {
+    padding-left: 5%;
+    color: rgb(36, 70, 85);
+}
+
 /* contact me section */
 
 .contact-content {
-    width: 80%;
+    width: 73%;
+    padding-left: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,4 +129,5 @@ a {
 
 .contact-methods {
     font-size: 40px;
+    color: rgb(36, 70, 85);
 }
