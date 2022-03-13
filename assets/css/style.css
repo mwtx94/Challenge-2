@@ -75,39 +75,46 @@ a {
 .hero .quote #quote-text {
     font-size: 37px;
 
-/* content area */
-.content {
+/* title class styling */
+
+} .title {
     text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 100%;
 }
 
-/* image sizing etc. */
-.about-me img {
-    height: 200px;
-    width: 200px;
+.title h2 {
+    font-size: 48px;
+    color: rgb(36, 70, 85);
 }
 
-.about-me h2, .work h2, .contact-me h2, .resume h2 {
-    float: left;
-}
+/* about me section styling */
 
-.header2 {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #3e6266;
+.about-me {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-  }
+    align-items: stretch;
+    padding-top: 30px;
+}
 
-.p-text {
-    flex: 12;
-  }
+.about-me p {
+    font-size: 20px;
+    padding: 0 40px;
+    line-height: 1.5;
+    width: 100%;
+}
 
-.header2info {
+/* contact me section */
+
+.contact-content {
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    flex: 2 70%
-  }
+}
+
+.contact-methods {
+    font-size: 40px;
+}
